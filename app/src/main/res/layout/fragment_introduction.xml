@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_marginTop="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Introduction"
+        android:textColor="@color/grey_300"
+        android:textSize="56sp" />
+
+
+    <TextView
+        android:layout_below="@id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:id="@+id/tv_info_user"
+        android:padding="16dp"
+        android:text="Username: "
+        android:textColor="@color/grey_300"
+        android:textSize="24dp" />
+
+   <TextView
+
+       android:layout_below="@id/tv_info_user"
+       android:id="@+id/tv_info_pass"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="14dp"
+       android:gravity="center"
+       android:padding="16dp"
+       android:text="Password: "
+       android:textColor="@color/grey_300"
+       android:textSize="24dp" />
+</RelativeLayout>
